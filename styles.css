@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #bdbdbd;
+    height: 150px;
+    padding-left:  10%;
+    line-height: 150px;
+
+}
+
+.fold {
+    background-color: #FDD9B5;
+    height: 550px;
+    padding-left:  10%;
+    line-height: 550px;
+   
+}
+
+.content {
+     background-color:  #F19CBB;
+     padding: 0px;
+
+     margin: 0 150px 0 150px;
+
+}
+
+.text1, .text3 {
+    
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.text2 {
+    background-color:  #7FFFD4;
+    padding: 100px;
+    text-align: center;
+    color: black;
+}
+
+.text4 {
+    background-color:   #FDD9B5;
+    padding: 100px;
+    text-align: center;
+    color: black;
+}
+
+.image-block {
+    display: flex;
+    padding-top: 80px;
+    margin: 10px 10px;
+ display: flex; /* Встановлюємо flex-контейнер для відображення блоків поруч */
+    justify-content: space-between; /* Додаємо простір між зображенням і текстом */
+}
+
+.image {
+    background-color: #6fa9fb;
+    width: 360px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%; 
+    height: 100%; 
+  
+}
+
+.description {
+    background-color: #6fa9fb;
+    width: 70%;
+    margin: 0 30px 0 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.description1 {
+
+    display: flex;
+    padding: 0 15% 0 15%;
+}
+
+.zah {
+padding: 50px;
+}
+
+.footer {
+  
+    background-color: #424242;
+    height: 400px;
+
+    text-align: center;
+    line-height: 400px;
+    color: white;
+}
